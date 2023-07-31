@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="/5/calculadora.css">
+  <title>Calculadora de Impuestos</title>
+</head>
+<body>
+  <div class="contenedor_formulario">
+  <h1>Calculadora de Impuestos</h1>
+  <form id="impuestoForm">
+    <label for="montoBase">Monto Base:</label>
+    <input class="texto" type="number" id="montoBase" step="0.01" required><br>
+  </br>
+    <label for="porcentajeImpuesto">Porcentaje de Impuesto (%):</label>
+    <input class="texto1" type="number" id="porcentajeImpuesto" step="0.01" required><br>
+  </br>
+    <button class="boton_c" type="button" onclick="calcularImpuestos()">Calcular Impuestos</button>
+    <button class="boton_c" type="button" onclick="limpiarFormulario()">Limpiar Datos</button>
+  </form>
+
+<div class="container">
+    <h1>¡Bienvenido!</h1>
+</div>
+
+  <p id="resultado"></p>
+  </div>
+  <script src="/5/calculadora.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenedor_formulario {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.boton_c {
+    border-radius: 6px;
+    margin-left: 70px;
+    font-size: 15px;
+}
+
+.texto {
+    margin-left: 142px;
+}
+
+.texto1{
+    margin-left: 30px;
+}
